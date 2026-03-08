@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home — Ceanna Cheung</title>
+  <meta name="description" content="Ceanna Ting-Yan Cheung — BSc Chemistry student at the University of Alberta. First-author published chemist specialising in bitumen extraction." />
+  <meta property="og:title" content="Home — Ceanna Cheung" />
+  <meta property="og:image" content="assets/ceanna.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/jpeg" href="assets/ceanna.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Home">
+        <img src="assets/ceanna.jpg" alt="Ceanna" />
+        Ceanna <span>Cheung</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+  <section style="min-height:100vh; display:flex; align-items:center; position:relative; overflow:hidden; padding-top:64px; background:var(--color-bg);">
+    <!-- Hex grid background -->
+    <div style="position:absolute;inset:0;z-index:0;" aria-hidden="true">
+      <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;opacity:0.35;">
+        <defs>
+          <pattern id="hexgrid" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+            <polygon points="15,2 45,2 58,26 45,50 15,50 2,26" fill="none" stroke="#0D7377" stroke-width="0.6" opacity="0.5"/>
+          </pattern>
+          <radialGradient id="hero-glow" cx="30%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#E0F5F5" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#F8F7F4" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect width="1200" height="800" fill="url(#hexgrid)"/>
+        <rect width="1200" height="800" fill="url(#hero-glow)"/>
+        <circle cx="200" cy="200" r="4" fill="#0D7377" opacity="0.25"/><circle cx="260" cy="200" r="4" fill="#0D7377" opacity="0.25"/><line x1="200" y1="200" x2="260" y2="200" stroke="#0D7377" stroke-width="1" opacity="0.2"/><circle cx="230" cy="248" r="4" fill="#0D7377" opacity="0.25"/><line x1="200" y1="200" x2="230" y2="248" stroke="#0D7377" stroke-width="1" opacity="0.2"/><line x1="260" y1="200" x2="230" y2="248" stroke="#0D7377" stroke-width="1" opacity="0.2"/>
+        <circle cx="900" cy="300" r="4" fill="#0D7377" opacity="0.2"/><circle cx="960" cy="280" r="4" fill="#0D7377" opacity="0.2"/><circle cx="970" cy="340" r="4" fill="#0D7377" opacity="0.2"/><line x1="900" y1="300" x2="960" y2="280" stroke="#0D7377" stroke-width="1" opacity="0.15"/><line x1="960" y1="280" x2="970" y2="340" stroke="#0D7377" stroke-width="1" opacity="0.15"/><line x1="900" y1="300" x2="970" y2="340" stroke="#0D7377" stroke-width="1" opacity="0.15"/>
+      </svg>
+      <div style="position:absolute;bottom:0;left:0;right:0;height:200px;background:linear-gradient(to bottom,transparent,var(--color-bg));z-index:1;"></div>
+    </div>
+
+    <div class="container" style="position:relative;z-index:2;width:100%;">
+      <div style="display:grid;grid-template-columns:1fr auto;gap:clamp(2rem,6vw,5rem);align-items:center;padding:clamp(3rem,8vh,5rem) 0;">
+
+        <div style="max-width:620px;">
+          <p style="font-family:var(--font-mono);font-size:0.95rem;letter-spacing:0.18em;color:var(--color-teal);text-transform:uppercase;margin-bottom:1.25rem;display:flex;align-items:center;gap:0.75rem;" class="reveal">
+            <span style="display:inline-block;width:2rem;height:1px;background:var(--color-teal);"></span>
+            BSc Chemistry · University of Alberta
+          </p>
+          <h1 style="font-family:var(--font-display);font-size:clamp(2.75rem,7vw,4.5rem);font-weight:700;color:var(--color-navy);line-height:1.05;letter-spacing:-0.02em;margin-bottom:1rem;" class="reveal reveal-delay-1">
+            Ceanna<br/>Ting-Yan Cheung
+          </h1>
+          <p style="font-size:clamp(1rem,2.5vw,1.2rem);color:var(--color-muted);margin-bottom:1.5rem;" class="reveal reveal-delay-2">
+            Fourth-Year Chemistry Student &amp; Undergraduate Researcher<br/>
+            Faculty of Science, University of Alberta — Edmonton, Canada
+          </p>
+          <blockquote style="font-style:italic;font-size:clamp(1rem,2.2vw,1.125rem);color:var(--color-text);line-height:1.6;margin-bottom:2.5rem;padding-left:1.25rem;border-left:2px solid var(--color-teal);" class="reveal reveal-delay-3">
+            Advancing analytical methods in bitumen extraction to support cleaner, faster characterisation of Alberta's oil sands resources.
+          </blockquote>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;" class="reveal reveal-delay-4">
+            <a href="https://google.com" class="btn btn--primary" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              Download CV
+            </a>
+            <a href="contact.html" class="btn btn--secondary">
+              Get in Touch
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div style="flex-shrink:0;">
+          <div style="width:clamp(200px,22vw,320px);height:clamp(200px,22vw,320px);border-radius:50%;overflow:hidden;border:3px solid var(--color-sand-dark);box-shadow:var(--shadow-lg);background:var(--color-sand);" class="reveal">
+            <img src="assets/ceanna.jpg" alt="Ceanna Ting-Yan Cheung — Chemist, University of Alberta" style="width:100%;height:100%;object-fit:cover;" loading="eager" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div style="position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:0.5rem;color:var(--color-muted);font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;animation:bounceDown 2s ease infinite;" aria-hidden="true">
+      <div style="width:1px;height:40px;background:linear-gradient(to bottom,var(--color-teal),transparent);"></div>
+      scroll
+    </div>
+  </section>
+
+  <!-- Quick-nav cards -->
+  <section style="padding:clamp(3rem,6vw,5rem) 0;background:var(--color-surface);">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;">
+        <a href="about.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">👩‍🔬</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">About & Education</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Background &amp; academic history</div>
+        </a>
+        <a href="research.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal reveal-delay-1"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">⚗️</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">Research & Projects</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Interests &amp; project work</div>
+        </a>
+        <a href="experience.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal reveal-delay-2"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">💼</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">Experience</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Research &amp; work history</div>
+        </a>
+        <a href="publications.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal reveal-delay-3"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">📄</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">Publications</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Journal articles &amp; manuscripts</div>
+        </a>
+        <a href="skills.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal reveal-delay-4"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">🛠</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">Skills &amp; Awards</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Technical skills &amp; honours</div>
+        </a>
+        <a href="contact.html" style="padding:1.5rem;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:all 0.25s;display:block;" class="reveal reveal-delay-4"
+           onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'"
+           onmouseout="this.style.transform='';this.style.boxShadow=''">
+          <span style="font-size:1.5rem;display:block;margin-bottom:0.75rem;">✉️</span>
+          <div style="font-family:var(--font-display);font-weight:600;color:var(--color-navy);margin-bottom:0.3rem;">Contact</div>
+          <div style="font-size:0.85rem;color:var(--color-muted);">Get in touch</div>
+        </a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <style>
+    @keyframes bounceDown {
+      0%,100%{transform:translateX(-50%) translateY(0);}
+      50%{transform:translateX(-50%) translateY(6px);}
+    }
+    @media(max-width:900px){
+      [style*="grid-template-columns:1fr auto"]{grid-template-columns:1fr!important;text-align:center;}
+      [style*="grid-template-columns:1fr auto"] > div:last-child{order:-1;display:flex;justify-content:center;}
+      [style*="border-left:2px"]{text-align:left;}
+      [style*="display:flex;gap:1rem"]{justify-content:center;}
+    }
+  </style>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__name">Ceanna <span>Ting-Yan</span> Cheung</div>
+        <ul class="footer__links" aria-label="Footer navigation">
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://google.com" target="_blank" rel="noopener">CV ↗</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">
+        © 2025 Ceanna Cheung · BSc Chemistry, University of Alberta · Edmonton, Canada &nbsp;·&nbsp; contact@ceanna.net
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.querySelectorAll('.reveal').forEach(el => {
+      new IntersectionObserver(([e], obs) => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }).observe(el);
+    });
+  </script>
+</body>
+</html>

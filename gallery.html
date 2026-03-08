@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Ceanna Cheung</title>
+  <meta name="description" content="Photo gallery — Ceanna Cheung. Lab and field photos." />
+  <meta property="og:title" content="Gallery — Ceanna Cheung" />
+  <meta property="og:image" content="assets/ceanna.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/jpeg" href="assets/ceanna.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Home">
+        <img src="assets/ceanna.jpg" alt="Ceanna" />
+        Ceanna <span>Cheung</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+  <div class="page-hero">
+    <div class="container">
+      <div class="page-hero__content">
+        <p class="page-hero__label">06 / Gallery</p>
+        <h1 class="page-hero__title">Lab &amp; Field</h1>
+        <p class="page-hero__sub">Selected photos from research, conferences, and outreach.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Lab bench photo · 1200×675 px
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Conference / poster · 800×600 px
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Team / group photo · 800×600 px
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Instrument photo · 800×600 px
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            Award / graduation · 800×600 px
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:2rem;font-family:var(--font-mono);font-size:0.75rem;color:var(--color-muted);letter-spacing:0.06em;">
+        ▸ To add photos: replace each placeholder <code>&lt;div class="gallery-placeholder"&gt;</code> with <code>&lt;img src="your-photo.jpg" alt="Caption" /&gt;</code>
+      </p>
+    </div>
+  </section>
+  </main>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__name">Ceanna <span>Ting-Yan</span> Cheung</div>
+        <ul class="footer__links" aria-label="Footer navigation">
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://google.com" target="_blank" rel="noopener">CV ↗</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">
+        © 2025 Ceanna Cheung · BSc Chemistry, University of Alberta · Edmonton, Canada &nbsp;·&nbsp; contact@ceanna.net
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.querySelectorAll('.reveal').forEach(el => {
+      new IntersectionObserver(([e], obs) => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }).observe(el);
+    });
+  </script>
+</body>
+</html>

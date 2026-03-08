@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Ceanna Cheung</title>
+  <meta name="description" content="Contact Ceanna Cheung — email, LinkedIn, Google Scholar, ORCID." />
+  <meta property="og:title" content="Contact — Ceanna Cheung" />
+  <meta property="og:image" content="assets/ceanna.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/jpeg" href="assets/ceanna.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Home">
+        <img src="assets/ceanna.jpg" alt="Ceanna" />
+        Ceanna <span>Cheung</span>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+  <div class="page-hero">
+    <div class="container">
+      <div class="page-hero__content">
+        <p class="page-hero__label">07 / Contact</p>
+        <h1 class="page-hero__title">Get in Touch</h1>
+        <p class="page-hero__sub">Research collaborations, industry opportunities, and networking.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="contact__wrapper">
+        <div class="reveal">
+          <div class="contact__text">
+            <p>I'm open to research collaborations, industry opportunities, graduate school inquiries, and networking. Feel free to reach out — I'm always happy to connect with fellow scientists and professionals.</p>
+          </div>
+          <a href="mailto:contact@ceanna.net" class="contact__email-link">contact@ceanna.net</a>
+          <nav class="contact__socials" aria-label="Social and academic profiles">
+            <a href="https://www.linkedin.com/in/ceanna-cheung-612538292/" class="social-link" target="_blank" rel="noopener">
+              <span class="social-link__icon">in</span>
+              <span>
+                <div class="social-link__label">LinkedIn</div>
+                <div class="social-link__sub">linkedin.com/in/ceanna-cheung-612538292</div>
+              </span>
+              <span class="social-link__arrow">↗</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=3LcxYFgAAAAJ&hl=en" class="social-link" target="_blank" rel="noopener">
+              <span class="social-link__icon">GS</span>
+              <span>
+                <div class="social-link__label">Google Scholar</div>
+                <div class="social-link__sub">Published research &amp; citations</div>
+              </span>
+              <span class="social-link__arrow">↗</span>
+            </a>
+            <a href="https://orcid.org/REPLACE-WITH-YOUR-ORCID" class="social-link" target="_blank" rel="noopener">
+              <span class="social-link__icon">ID</span>
+              <span>
+                <div class="social-link__label">ORCID iD</div>
+                <div class="social-link__sub"><span class="placeholder-note">✎ Replace with your ORCID</span></div>
+              </span>
+              <span class="social-link__arrow">↗</span>
+            </a>
+            <a href="https://www.researchgate.net/profile/REPLACE" class="social-link" target="_blank" rel="noopener">
+              <span class="social-link__icon">RG</span>
+              <span>
+                <div class="social-link__label">ResearchGate</div>
+                <div class="social-link__sub"><span class="placeholder-note">✎ Add your ResearchGate URL</span></div>
+              </span>
+              <span class="social-link__arrow">↗</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="contact__form reveal reveal-delay-2">
+          <form action="https://formspree.io/f/REPLACE_WITH_YOUR_FORMSPREE_ID" method="POST">
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Your Name</label>
+              <input class="form-input" type="text" id="contact-name" name="name" placeholder="Dr. Jane Smith" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Your Email</label>
+              <input class="form-input" type="email" id="contact-email" name="email" placeholder="jane@university.edu" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subject</label>
+              <input class="form-input" type="text" id="contact-subject" name="subject" placeholder="Research collaboration / Job opportunity" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Message</label>
+              <textarea class="form-textarea" id="contact-message" name="message" placeholder="I'd love to connect about..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">
+              Send Message
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__name">Ceanna <span>Ting-Yan</span> Cheung</div>
+        <ul class="footer__links" aria-label="Footer navigation">
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://google.com" target="_blank" rel="noopener">CV ↗</a></li>
+        </ul>
+      </div>
+      <p class="footer__copy">
+        © 2025 Ceanna Cheung · BSc Chemistry, University of Alberta · Edmonton, Canada &nbsp;·&nbsp; contact@ceanna.net
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      toggle.classList.toggle('open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+    document.querySelectorAll('.reveal').forEach(el => {
+      new IntersectionObserver(([e], obs) => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }).observe(el);
+    });
+  </script>
+</body>
+</html>
